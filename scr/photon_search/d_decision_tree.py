@@ -4,10 +4,10 @@ from sklearn import metrics
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.metrics import confusion_matrix
 
-from a_get_data import X_train, X_test
 from b_data_organization import Photons, Not_photons
-from c_split_data import y_test, y_train
+from c_split_data import y_test, y_train, X_train, X_test
 
+print(X_train.columns)
 #Decision Tree
 dt = DecisionTreeClassifier(random_state=0)
 

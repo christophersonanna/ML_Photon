@@ -1,10 +1,12 @@
 # -*- coding: utf-8 -*-
 
-import a_get_data as get_data
+from a_get_data import X_test, X_train
 
 # Split dataset into training set and test set
-y_train = get_data.X_train['photon']
-y_test = get_data.X_test['photon']
+y_train = X_train['photon']
+y_test = X_test['photon']
 
-del(get_data.X_test['photon'])
-del(get_data.X_train['photon'])
+del(X_test['photon'])
+del(X_train['photon'])
+
+

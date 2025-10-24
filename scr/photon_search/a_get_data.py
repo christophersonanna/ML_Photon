@@ -13,3 +13,19 @@ import pandas as pd #will change later
 #for testing the scripts for now
 X_test = pd.read_csv(config.PROCESSED_DATA_PATH_TEST, delimiter=',')
 X_train = pd.read_csv(config.PROCESSED_DATA_PATH_TRAIN, delimiter=',')
+
+
+del(X_test['mir_id'])
+del(X_test['mir_nmir'])
+#del(X_test['mir_ngtube'])
+del(X_test['Unnamed: 0'])
+
+del(X_train['mir_id'])
+del(X_train['mir_nmir'])
+#del(X_train['mir_ngtube'])
+del(X_train['Unnamed: 0'])
+
+X_test = X_test
+X_train = X_train
+
+print(X_train.columns)

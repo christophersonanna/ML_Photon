@@ -8,4 +8,3 @@ from pathlib import Path
 
 PROCESSED_DATA_PATH_TRAIN = Path('/home/anna/photon_detection/Photon Machine Learning/Creating and Verifying Training Sets/Training set #7/gw_tale_mc_all.training_data_007.csv')
 PROCESSED_DATA_PATH_TEST = Path('/home/anna/photon_detection/Photon Machine Learning/Creating and Verifying Training Sets/Training set #7/gw_tale_mc_all.testing_data_007.csv')
-
